@@ -20,6 +20,15 @@
     align-items: center;
     background-color: #B8BCB8;
     padding: 1vh 0;
+
+    /*STICKY NAV SETTINGS
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+    height: 50px;
+    */
 }
 .navList
 {
@@ -46,4 +55,18 @@
 {
     color: #C3996B;
     text-decoration: underline;
+}
+/*Show And Hide Animation Classes*/
+.navTopHide
+{
+    display: none;
+}
+.navBottomSectionSticky
+{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+    height: 50px;
 }

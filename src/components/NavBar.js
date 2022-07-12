@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 //Media Assets
 import logo from '../images/logo.png';
 //Styles
@@ -8,14 +8,34 @@ import { NavLink } from 'react-router-dom';
 
 export default function NavBar() 
 {
+    //React state used to show and hide top section of navbar when scrolling.
+    const [showNav, setShowNav] = useState(true);
+    const displayNavbar = () => {
+        if (window.scrollY > 10)
+        {
+            setShowNav(false);
+        }
+        else 
+        {
+            setShowNav(true);
+        }
+    }
+    //Use effect
+    useEffect(() => {
+        window.addEventListener('scroll', displayNavbar);
+        return () => {
+            window.removeEventListener('scroll', displayNavbar);
+        }
+    }, []);
+
   return (
     <header>
         <div className='navContainer'>
-            <div className='navTopSection'>
+            <div className={ showNav ? 'navTopSection' : 'navTopHide' }>
                 <img src={logo} alt='studiocreative.co.za-logo' width={400}/>
             </div>
 
-            <div className='navBottomSection'>
+            <div className={showNav ? 'navBottomSection' : 'navBottomSectionSticky navBottomSection' }> 
                 <div className='navListWrapper'>
                     <ul className='navList'>
                         <li>
