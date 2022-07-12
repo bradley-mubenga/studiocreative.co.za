@@ -33,3 +33,17 @@
 {
     padding: 0 1vw;
 }
+.navList li a
+{
+    color: #264D37;
+    text-decoration: none;
+}
+.navList li a:visited
+{
+    color: #264D37;
+}
+.navList li a.active
+{
+    color: #C3996B;
+    text-decoration: underline;
+}

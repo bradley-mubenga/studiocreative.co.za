@@ -3,8 +3,11 @@ import React from 'react';
 import logo from '../images/logo.png';
 //Styles
 import '../styles/NavBar.css';
+//React Router DOM
+import { NavLink } from 'react-router-dom';
 
-export default function NavBar() {
+export default function NavBar() 
+{
   return (
     <header>
         <div className='navContainer'>
@@ -15,9 +18,15 @@ export default function NavBar() {
             <div className='navBottomSection'>
                 <div className='navListWrapper'>
                     <ul className='navList'>
-                        <li>About</li>
-                        <li>Portfolio</li>
-                        <li>Contact</li>
+                        <li>
+                            <NavLink to="/">About</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/portfolio">Portfolio</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/contact">Contact</NavLink>
+                        </li>
                     </ul>
                 </div>
             </div>
