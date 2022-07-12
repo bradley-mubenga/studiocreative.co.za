@@ -1,0 +1,35 @@
+.navContainer 
+{
+    display: flex;
+    flex-direction: column;
+}
+.navTopSection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #264D37;
+    padding: 3vh 0;
+}
+.navBottomSection
+{
+    color: #264D37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B8BCB8;
+    padding: 1vh 0;
+}
+.navList
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0.7vh;
+    margin: 0;
+}
+.navList li 
+{
+    padding: 0 1vw;
+}

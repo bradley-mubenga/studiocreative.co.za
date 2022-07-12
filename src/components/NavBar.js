@@ -1,14 +1,15 @@
 import React from 'react';
 //Media Assets
 import logo from '../images/logo.png';
-//CSS
+//Styles
+import '../styles/NavBar.css';
 
 export default function NavBar() {
   return (
     <header>
         <div className='navContainer'>
             <div className='navTopSection'>
-                <img src={logo} alt='studiocreative.co.za-logo' />
+                <img src={logo} alt='studiocreative.co.za-logo' width={400}/>
             </div>
 
             <div className='navBottomSection'>
