@@ -65,5 +65,9 @@
     color: #C3996B;
     text-decoration: underline;
 }
-/*NAVBAR SCROLL TRANSPARENCY STYLES*/
+/*RESPONSIVE STYLES*/
+@media (max-width: 768px)
+{
+    
+}
 
