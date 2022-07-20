@@ -5,6 +5,8 @@ import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+//CSS
+import 'animate.css'
 //
 function App() 
 {

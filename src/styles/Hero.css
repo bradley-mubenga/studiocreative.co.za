@@ -1,0 +1,51 @@
+.heroSection
+{
+    width: 100%;
+    height: 100vh;
+}
+.heroSection video 
+{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.heroText
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.heroText h1
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #B8BCB8;
+    font-size: 5.7vw;
+}
+.heroText p
+{
+    text-align: center;
+    color: #C3996B;
+    font-size: 1.5vw;
+}
+.mouseIconContainer
+{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.mouseIconContainer a
+{
+    z-index: 1;
+}

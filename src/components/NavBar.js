@@ -29,13 +29,13 @@ export default function NavBar()
     }, []);
 
   return (
-    <header>
+    <header id='navBar'>
         <div className='navContainer'>
-            <div className={ showNav ? 'navTopSection' : 'navTopHide' }>
-                <img src={logo} alt='studiocreative.co.za-logo' width={400}/>
+            <div className={ showNav ? 'navTopSection' : 'navTopSection' }>
+                <img src={logo} alt='studiocreative.co.za-logo' width={225}/>
             </div>
 
-            <div className={showNav ? 'navBottomSection' : 'navBottomSectionSticky navBottomSection' }> 
+            <div className={showNav ? 'navBottomSection' : 'navBottomSection' }> 
                 <div className='navListWrapper'>
                     <ul className='navList'>
                         <li>

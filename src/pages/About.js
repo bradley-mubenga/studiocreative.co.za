@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+//Components
+import Hero from '../components/Hero';
 
 export default function About() {
   return (
-    <div className='testDiv'><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tortor imperdiet, porta justo a, facilisis nulla. Curabitur ut porttitor arcu. Nunc urna mauris, feugiat vulputate elementum vel, pharetra vel augue. Proin placerat mauris nec dictum lobortis. Sed varius dolor ac nisi venenatis faucibus. Curabitur pellentesque augue et efficitur consectetur. Vivamus at erat quis diam posuere sodales vitae sollicitudin nibh. Integer placerat mattis erat, sit amet porta mi faucibus ut. Aliquam erat volutpat. Pellentesque congue sapien at orci faucibus, at scelerisque turpis condimentum. Morbi porta diam quis risus blandit mattis. Cras porttitor, diam non fermentum pulvinar, purus est auctor lacus, in tempor ipsum magna id nisi.
+    <div className='testDiv'>
+            <Hero />
+      <h1 className='container'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tortor imperdiet, porta justo a, facilisis nulla. Curabitur ut porttitor arcu. Nunc urna mauris, feugiat vulputate elementum vel, pharetra vel augue. Proin placerat mauris nec dictum lobortis. Sed varius dolor ac nisi venenatis faucibus. Curabitur pellentesque augue et efficitur consectetur. Vivamus at erat quis diam posuere sodales vitae sollicitudin nibh. Integer placerat mattis erat, sit amet porta mi faucibus ut. Aliquam erat volutpat. Pellentesque congue sapien at orci faucibus, at scelerisque turpis condimentum. Morbi porta diam quis risus blandit mattis. Cras porttitor, diam non fermentum pulvinar, purus est auctor lacus, in tempor ipsum magna id nisi.
 
     Donec est justo, venenatis eget lorem quis, luctus feugiat erat. Morbi luctus mattis ante, ut hendrerit lorem auctor et. Aliquam egestas ultricies augue vel porttitor. Pellentesque commodo, urna id ultrices facilisis, nulla enim iaculis dui, in vulputate lacus metus a felis. Aenean commodo velit massa, at pretium sapien efficitur ultrices. Morbi malesuada mauris non quam vulputate suscipit. Praesent id euismod augue, quis tempus justo. Sed euismod libero quis congue egestas. Praesent suscipit suscipit elit congue fringilla.
     

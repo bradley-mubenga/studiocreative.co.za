@@ -1,7 +1,18 @@
+#navBar 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 777;
+}
 .navContainer 
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #264D37;
+    padding: 3vh 2.5vw;
 }
 .navTopSection
 {
@@ -9,8 +20,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #264D37;
-    padding: 3vh 0;
 }
 .navBottomSection
 {
@@ -18,45 +27,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #B8BCB8;
-    padding: 1vh 0;
+    z-index: 2;
 }
 .navList
 {
     display: flex;
-    align-items: center;
     list-style-type: none;
-    padding: 0.7vh;
+    padding: 0;
     margin: 0;
 }
-.navList li 
+.navList li:nth-child(2)
 {
-    padding: 0 1vw;
+    padding: 0 0.7vw;
 }
 .navList li a
 {
-    color: #264D37;
+    color: #B8BCB3;
     text-decoration: none;
 }
 .navList li a:visited
 {
-    color: #264D37;
+    color: #B8BCB3;
 }
 .navList li a.active
 {
     color: #C3996B;
     text-decoration: underline;
 }
-/*Show And Hide Animation Classes*/
-.navTopHide
-{
-    display: none;
-}
-.navBottomSectionSticky
-{
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    z-index: 9999; 
-    width: 100%;
-}
+/*NAVBAR SCROLL TRANSPARENCY STYLES*/
+
