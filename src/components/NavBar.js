@@ -30,12 +30,12 @@ export default function NavBar()
 
   return (
     <header id='navBar'>
-        <div className='navContainer'>
-            <div className={ showNav ? 'navTopSection' : 'navTopSection' }>
+        <div className={ showNav ? 'navContainerTransparent' : 'navContainer' }>
+            <div className='navTopSection' >
                 <img src={logo} alt='studiocreative.co.za-logo' width={225}/>
             </div>
 
-            <div className={showNav ? 'navBottomSection' : 'navBottomSection' }> 
+            <div className='navBottomSection'> 
                 <div className='navListWrapper'>
                     <ul className='navList'>
                         <li>

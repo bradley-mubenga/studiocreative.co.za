@@ -6,13 +6,24 @@
     width: 100%;
     z-index: 777;
 }
+.navContainerTransparent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #264d3700;
+    padding: 3vh 10vw;
+    transition: .3s ease-in;
+}
 .navContainer 
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #264D37;
-    padding: 3vh 2.5vw;
+    padding: 3vh 10vw;
+    transition: .3s ease-in;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.050);
 }
 .navTopSection
 {
@@ -38,7 +49,7 @@
 }
 .navList li:nth-child(2)
 {
-    padding: 0 0.7vw;
+    padding: 0 2vw;
 }
 .navList li a
 {
