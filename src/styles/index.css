@@ -6,15 +6,17 @@ html
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-
 body
 {
     padding: 0;
     margin: 0;
     font-family: 'Volkhov', serif;
 }
-
 .container
 {
     padding: 0 2vw;
+}
+.hide
+{
+    display: none;
 }

@@ -1,3 +1,11 @@
+/*DESKTOP & LAPTOP DEVICE STYLES*/
+@media (min-width: 769px)
+{
+    .navResponsive, .navResponsiveRightSection
+    {
+        display: none;
+    }    
+}
 #navBar 
 {
     position: fixed;
@@ -25,14 +33,20 @@
     transition: .3s ease-in;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.050);
 }
-.navTopSection
+.navLeftSection
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.navBottomSection
+.navLogo
+{
+    width: 100%;
+    max-width: 225px;
+    height: auto;
+}
+.navRightSection
 {
     color: #264D37;
     display: flex;
@@ -68,6 +82,98 @@
 /*RESPONSIVE STYLES*/
 @media (max-width: 768px)
 {
-    
+    .navRightSection
+    {
+        display: none;
+    }
+    .navResponsiveRightSection
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navResponsive
+    {
+        color: #264D37;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 888;
+        background-color: #264D37;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100vw);
+        transition: .3s ease-in;
+    }
+    .navResponsiveVisible
+    {
+        transform: translateX(0vw);
+        transition: .3s ease-in;
+    }
+    .navExitWrapper{
+        z-index: 999;
+    }
+    .navResponsiveList
+    {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .navResponsiveList li:nth-child(2)
+    {
+        padding: 4vh 0;
+    }
+    .navResponsiveList li a
+    {
+        color: #B8BCB3;
+        text-decoration: none;
+        font-size: larger;
+    }
+    .navResponsiveList li a:visited
+    {
+        color: #B8BCB3;
+    }
+    .navResponsiveList li a.active
+    {
+        color: #C3996B;
+        text-decoration: underline;
+    }
 }
+@media (max-width: 425px)
+{
+    .navLogo
+    {
+        width: 100%;
+        max-width: 175px;
+        height: auto;
+    }
+}
+@media (max-width: 375px)
+{
+    .navLogo
+    {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+    }
+}
+@media (max-width: 320px)
+{
+    .navLogo
+    {
+        width: 100%;
+        max-width: 125px;
+        height: auto;
+    }
+}
+
+
 
