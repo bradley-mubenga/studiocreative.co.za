@@ -27,3 +27,50 @@
     padding: 0 3vw;
 }
 /*RESPONSIVE DEVICE STYLES*/
+@media (max-width: 900px)
+{
+    .clientsSection p
+    {
+        font-size: 2vw;
+    }
+    .clientLogoImg
+    {
+        width: 135px;
+    }
+}
+@media (max-width: 545px) 
+{
+    .clientsContainer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 425px)
+{
+    .clientsSection p
+    {
+        font-size: 2.8vw;
+    }
+    .clientLogoImg
+    {
+        width: 125px;
+    }
+}
+@media (max-width: 375px)
+{
+    .clientsSection p
+    {
+        font-size: 3.3vw;
+    }
+}
+@media (max-width: 320px)
+{
+    .clientsSection p
+    {
+        font-size: 3.595vw;
+    }
+}

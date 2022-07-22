@@ -19,7 +19,7 @@ export default function Clients() {
                 Images.map((source, index) => {
                     return (
                         <div className='clientLogoDiv' key={index}>
-                            <img src={source} alt="client's logo" width={"150px"} />
+                            <img src={source} alt="client's logo" width={"150px"} className="clientLogoImg"/>
                         </div>
                     )
                 })

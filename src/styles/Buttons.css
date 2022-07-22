@@ -1,7 +1,7 @@
 .outlineGreen
 {
     color: #264D37;
-    border: 0.3em solid #264D37;
+    border: 0.225em solid #264D37;
     text-decoration: none;
     padding: 1vh 0.9vw;
     transition: ease-in-out .3s;
@@ -12,6 +12,7 @@
 {
     border-color: #C3996B;
     color: #C3996B;
+    cursor: pointer;
 }
 /*RESPONSIVE DEVICE STYLES*/
 @media (max-width: 900px)
