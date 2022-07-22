@@ -1,0 +1,64 @@
+.outlineGreen
+{
+    color: #264D37;
+    border: 0.3em solid #264D37;
+    text-decoration: none;
+    padding: 1vh 0.9vw;
+    transition: ease-in-out .3s;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.outlineGreen:hover
+{
+    border-color: #C3996B;
+    color: #C3996B;
+}
+/*RESPONSIVE DEVICE STYLES*/
+@media (max-width: 900px)
+{
+    .outlineGreen
+    {
+        font-size: 2.8vw;
+    }
+    .outlineGreen:hover
+    {
+        border-color: #C3996B;
+        color: #C3996B;
+    }
+}
+@media (max-width: 425px)
+{
+    .outlineGreen
+    {
+        font-size: 2.8vw;
+    }
+    .outlineGreen:hover
+    {
+        border-color: #C3996B;
+        color: #C3996B;
+    }
+}
+@media (max-width: 375px)
+{
+    .outlineGreen
+    {
+        font-size: 3.3vw;
+    }
+    .outlineGreen:hover
+    {
+        border-color: #C3996B;
+        color: #C3996B;
+    }
+}
+@media (max-width: 320px)
+{
+    .outlineGreen
+    {
+        font-size: 3.595vw;
+    }
+    .outlineGreen:hover
+    {
+        border-color: #C3996B;
+        color: #C3996B;
+    }
+}

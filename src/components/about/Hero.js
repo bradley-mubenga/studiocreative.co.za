@@ -2,9 +2,9 @@ import React from 'react';
 //Components
 
 //CSS
-import '../styles/Hero.css';
+import '../../styles/about/Hero.css';
 //Media Assets
-import backgroundVideo from '../videos/bgVid.mp4';
+import backgroundVideo from '../../videos/bgVid.mp4';
 //React Icons
 import { IconContext } from 'react-icons';
 import { BsChevronDown } from 'react-icons/bs';

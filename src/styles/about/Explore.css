@@ -1,0 +1,107 @@
+/*DESKTOP & LAPTOP STYLES*/
+#exploreSection
+{
+    background-color: white;
+}
+.exploreContainer
+{
+    padding: 5vh 0vw;
+}
+.exploreWrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.exploreEmblem
+{
+    padding: 0 0 2vh 0;
+}
+.exploreText
+{
+    text-align: center;
+}
+.exploreText h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 3.5vw;
+    color: #264D37;
+}
+.exploreText p
+{
+    margin: 0;
+    padding: 2vw 10vw;
+    font-size: 1.7vw;
+    color: #C3996B;
+}
+.exploreButtonWrapper
+{
+    padding: 1.5vh 0;
+}
+
+/*RESPONSIVE DEVICE STYLES*/
+@media (max-width: 425px)
+{
+    .exploreText h2
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 5.9vw;
+        color: #264D37;
+    }
+    .exploreText p
+    {
+        margin: 0;
+        padding: 2vw 1vw;
+        font-size: 2.8vw;
+        color: #C3996B;
+    }
+    .exploreButtonWrapper
+    {
+        padding: 1.5vh 0;
+    }
+}
+@media (max-width: 375px)
+{
+    .exploreText h2
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 7.3vw;
+        color: #264D37;
+    }
+    .exploreText p
+    {
+        margin: 0;
+        padding: 2vw 1vw;
+        font-size: 3.3vw;
+        color: #C3996B;
+    }
+    .exploreButtonWrapper
+    {
+        padding: 1.5vh 0;
+    }
+}
+@media (max-width: 320px)
+{
+    .exploreText h2
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 7.8vw;
+        color: #264D37;
+    }
+    .exploreText p
+    {
+        margin: 0;
+        padding: 2vw 1vw;
+        font-size: 3.595vw;
+        color: #C3996B;
+    }
+    .exploreButtonWrapper
+    {
+        padding: 1.5vh 0;
+    }
+}
