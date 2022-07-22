@@ -16,7 +16,7 @@ export default function Explore() {
                 </div>
                 <div className='exploreText'>
                     <h2>We Bring Your Ideas To Life</h2>
-                    <p>Short films give us the freedom to explore conceptual ideas and permits us to express ourselves as creatives… While building some superb brands and businesses in the process.</p>
+                    <p>Short films give us the freedom to explore conceptual ideas and permits us to express ourselves as creatives. While building some superb brands and businesses in the process.</p>
                     <div className='exploreButtonWrapper'>
                         <Button text={"Explore Our Work"} href={"/portfolio"} type="outlineGreen"/>
                     </div>
