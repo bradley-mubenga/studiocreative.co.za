@@ -1,0 +1,29 @@
+/*DESKTOP & LAPTOP DEVICE STYLES*/
+.clientsSection
+{
+    background-color: #C3996B;
+    padding: 2.5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clientsSection p
+{
+    padding: 1vh 0 0 0;
+    margin: 0;
+    color: #cdd2cd;
+    font-size: 1.7vw;
+}
+.clientsContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.clientsContainer .clientLogoDiv:nth-child(2)
+{
+    padding: 0 3vw;
+}
+/*RESPONSIVE DEVICE STYLES*/
