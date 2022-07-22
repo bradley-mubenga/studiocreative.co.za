@@ -1,3 +1,4 @@
+/*DESKTOP & LAPTOP DEVICE STYLES*/
 .heroSection
 {
     width: 100%;
@@ -33,7 +34,7 @@
 {
     text-align: center;
     color: #C3996B;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 .mouseIconContainer
 {
@@ -48,4 +49,95 @@
 .mouseIconContainer a
 {
     z-index: 1;
+}
+/*RESPONSIVE DEVICE STYLES8*/
+@media (max-width: 768px)
+{
+    .heroText h1
+    {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #B8BCB8;
+        font-size: 7vw;
+    }
+    .heroText p
+    {
+        text-align: center;
+        color: #C3996B;
+        font-size: 2.2vw;
+        margin: 0 5vw;
+    }
+}
+@media (max-width: 650px) 
+{
+    .heroText h1
+    {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #B8BCB8;
+        font-size: 10.7vw;
+    }
+    .heroText p
+    {
+        text-align: center;
+        color: #C3996B;
+        font-size: 3vw;
+        margin: 0 5vw;
+    } 
+}
+@media (max-width: 425px)
+{
+    .heroText h1
+    {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #B8BCB8;
+        font-size: 11vw;
+    }
+    .heroText p
+    {
+        text-align: center;
+        color: #C3996B;
+        font-size: 3vw;
+        margin: 0 5vw;
+    }
+}
+@media (max-width: 375px)
+{
+    .heroText h1
+    {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #B8BCB8;
+        font-size: 12vw;
+    }
+    .heroText p
+    {
+        text-align: center;
+        color: #C3996B;
+        font-size: 3.3vw;
+        margin: 0 5vw;
+    }
+}
+@media (max-width: 320px)
+{
+    .heroText h1
+    {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #B8BCB8;
+        font-size: 13vw;
+    }
+    .heroText p
+    {
+        text-align: center;
+        color: #C3996B;
+        font-size: 3.7vw;
+        margin: 0 5vw;
+    }
 }
