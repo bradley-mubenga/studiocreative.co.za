@@ -42,6 +42,27 @@
 }
 
 /*RESPONSIVE DEVICE STYLES*/
+@media (max-width: 900px)
+{
+    .exploreText h2
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 4.7vw;
+        color: #264D37;
+    }
+    .exploreText p
+    {
+        margin: 0;
+        padding: 2vw 1vw;
+        font-size: 2vw;
+        color: #C3996B;
+    }
+    .exploreButtonWrapper
+    {
+        padding: 1.5vh 0;
+    }
+}
 @media (max-width: 425px)
 {
     .exploreText h2

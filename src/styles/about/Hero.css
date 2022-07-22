@@ -52,7 +52,7 @@
     z-index: 1;
 }
 /*RESPONSIVE DEVICE STYLES8*/
-@media (max-width: 768px)
+@media (max-width: 999px)
 {
     .heroText h1
     {
@@ -68,6 +68,24 @@
         color: #C3996B;
         font-size: 2.2vw;
         margin: 0 5vw;
+    }
+}
+@media (max-width: 768px)
+{
+    .heroText h1
+    {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #B8BCB8;
+        font-size: 10vw;
+    }
+    .heroText p
+    {
+        text-align: center;
+        color: #C3996B;
+        font-size: 2.5vw;
+        margin: 0 10vw;
     }
 }
 @media (max-width: 650px) 
