@@ -4,7 +4,7 @@ import Button from '../Buttons';
 //CSS
 import '../../styles/about/Explore.css';
 //Media Assets
-import sunLogoEmblem from '../../images/logo-sun-emblem.png'
+import { logoEmblem } from '../../data/imagekit';
 
 export default function Explore() {
   return (
@@ -12,7 +12,7 @@ export default function Explore() {
         <div className='exploreContainer'>
             <div className='exploreWrapper'>
                 <div className='exploreEmblem'>
-                    <img src={sunLogoEmblem} alt="sun emblem of studio creative" width={"77px"}/>
+                    <img src={logoEmblem} alt="sun emblem of studio creative" width={"77px"}/>
                 </div>
                 <div className='exploreText'>
                     <h2>We Bring Your Ideas To Life</h2>

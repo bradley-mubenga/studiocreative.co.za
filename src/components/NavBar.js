@@ -9,9 +9,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoExitSharp } from 'react-icons/io5';
 //Animate.css
 import 'animate.css';
-//ImageKit
-import { IKImage } from 'imagekitio-react';
-const endPoint = "https://ik.imagekit.io/78n76p2wnul/studiocreative/";
+import { logoImg } from '../data/imagekit';
 
 export default function NavBar() 
 {
@@ -51,13 +49,7 @@ export default function NavBar()
     <header id='navBar'>
         <div className={ showNav ? 'navContainerTransparent' : 'navContainer' }>
             <div className='navLeftSection' >
-                <IKImage
-                    path="logo_EazHyGeiJa.png"
-                    urlEndpoint={endPoint}
-                    alt='studiocreative.co.za-logo' 
-                    className="navLogo"
-                />
-                {/*<img src={logo} alt='studiocreative.co.za-logo' className="navLogo"/>*/}
+                <img src={logoImg} alt='studiocreative.co.za-logo' className="navLogo"/>
             </div>
 
             <div className='navRightSection'> 
