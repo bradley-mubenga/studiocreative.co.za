@@ -9,6 +9,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoExitSharp } from 'react-icons/io5';
 //Animate.css
 import 'animate.css';
+//Media Assets
 import { logoImg } from '../data/imagekit';
 
 export default function NavBar() 
